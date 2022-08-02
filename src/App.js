@@ -151,7 +151,7 @@ function App() { // 메인 컴포넌트
       }}></Header>
       <Nav topics={topics} onChangeMode={(_id) =>{
         setMode('READ');// useState로 app 컴포넌트 재실행
-        setId(_id); // 클릭한 아이디로 세팅
+        setId(_id); // 클릭한 아이디로 세팅 
       }}></Nav>
       {content}
       <ul>
